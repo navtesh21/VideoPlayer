@@ -25,7 +25,7 @@ const Home = () => {
   };
   return (
     <div className="align-middle">
-      <h1 className="text-2xl text-bold">Enter the videoid in the url</h1>
+      <h1 className="text-2xl text-smbold">Enter the videoid in the url</h1>
       <h1>OR</h1>
       <div></div>
       <Input
@@ -40,6 +40,12 @@ const Home = () => {
       <Button type="submit" onClick={go} className="mt-3">
         click to go to video player
       </Button>
+      <div className="flex justify-center">
+        <img
+          src="https://i.ibb.co/tHRCHdd/EXAMPLE.png"
+          className="w-full mt-3 h-full shadow-lg border "
+        />
+      </div>
     </div>
   );
 };
