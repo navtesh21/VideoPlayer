@@ -137,8 +137,8 @@ const Notes = ({ pause, videoId, seek }) => {
           <div className="block text-start max-lg:text-center">
             <CardTitle className="text-xl">My notes</CardTitle>
             <CardDescription>
-              All your notes at a single place. Click on the note to go to a
-              specific timestamp on the video
+              All your notes at a single place. Click on the timestamp to go to
+              a specific timestamp on the video
             </CardDescription>
           </div>
 

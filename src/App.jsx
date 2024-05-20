@@ -88,7 +88,7 @@ function App() {
   return (
     <div>
       <CardTitle className="text-left text-2xl text-bold mb-5">
-        Video player with notes
+        Video Player With Notes
       </CardTitle>
       <div className="w-full mb-5" style={{ height: "75vh" }}>
         <div className="relative w-full h-full rounded-lg" ref={elementRef}>
@@ -98,7 +98,6 @@ function App() {
             iframeClassName="rounded-xl"
             opts={opts}
             onReady={onReady}
-            rel="0"
           />
         </div>
       </div>
